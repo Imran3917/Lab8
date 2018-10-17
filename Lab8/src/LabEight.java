@@ -117,11 +117,11 @@ public class LabEight {
 	                System.out.print("That Student does not exist.(enter a number 1-11):");
 	            }
 	            choice = scan.nextInt();
-	            if (choice >= 1 && choice <= 20) {
+	            if (choice >= 1 && choice <= 11) {
 	                showStudent(choice);
 	            }
 	            count++;
-	        } while (choice > 20 || choice < 1);
+	        } while (choice > 11 || choice < 1);
 	    }
 
 	    public static void main(String[] args) {
